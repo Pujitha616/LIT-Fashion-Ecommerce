@@ -22,7 +22,7 @@ const sampleFeatureImages = [
 async function seedFeatureImages() {
   try {
     await mongoose.connect(
-      "mongodb+srv://sravya:1234567890@cluster0.a3txtjj.mongodb.net/"
+      "mongodb+srv://205028main:RAATZmAmpgV8lOCL@cluster0.4gd1umn.mongodb.net/"
     );
     console.log("MongoDB connected for seeding feature images");
 
