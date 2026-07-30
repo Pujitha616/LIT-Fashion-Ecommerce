@@ -190,6 +190,4 @@ VITE_API_URL=https://lit-ecommerce.onrender.com
 
 -----
 
-## 💡 Author
 
-Made with ❤️ by Sravya Katta
