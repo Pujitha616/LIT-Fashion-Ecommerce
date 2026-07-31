@@ -45,24 +45,37 @@ LIT-ECommerce is a full-stack e-commerce web application designed to provide a s
 | Deployment| Vercel (frontend), Render (backend)                                         |
 
 -----
-
 ## 📁 Folder Structure
 
-LITecommerce/
+```text
+LIT-ECommerce/
 │
-├── client/          # React frontend
-│   ├── src/
+├── client/                     # React frontend
 │   ├── public/
-│   └── .env         # VITE_API_URL
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── redux/
+│   │   ├── hooks/
+│   │   ├── assets/
+│   │   └── App.jsx
+│   └── .env                    # VITE_API_URL
 │
-├── server/          # Express backend
+├── server/                     # Express backend
 │   ├── controllers/
+│   ├── middleware/
 │   ├── models/
-│   ├── helpers/
 │   ├── routes/
+│   ├── helpers/
+│   ├── config/
 │   ├── seed/
 │   ├── server.js
-│   └── .env         # Cloudinary credentials, PayPal credentials
+│   └── .env                    # MongoDB, JWT, Cloudinary, PayPal credentials
+│
+├── package.json
+├── README.md
+└── .gitignore
+```
 
 -----
 
